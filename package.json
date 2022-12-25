@@ -24,6 +24,7 @@
     },
     "homepage": "https://github.com/ashokpatidar/ashok#readme",
     "dependencies": {
+        "chalk": "^5.2.0",
         "clear-any-console": "^1.16.2",
         "emoji-log": "^1.0.2"
     }
