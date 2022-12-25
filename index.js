@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-
+// console.clear();
+import clearConsole from "clear-any-console";
+clearConsole();
 function say() {
   return `
   Hey Ashok Patidar 
@@ -10,6 +12,5 @@ function say() {
     Github: https://github.com/ashokpatidar/ashok
   `;
 }
-say();
 
 console.log(say());

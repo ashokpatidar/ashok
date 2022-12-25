@@ -1,25 +1,30 @@
 {
-  "name": "apatidar",
-  "version": "1.0.0",
-  "bin": {
-    "apatidar": "index.js"
-  },
-  "description": "Just to test first npm cli",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashokpatidar/ashok.git"
-  },
-  "keywords": [
-    "nodecli"
-  ],
-  "author": "apatidar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ashokpatidar/ashok/issues"
-  },
-  "homepage": "https://github.com/ashokpatidar/ashok#readme"
+    "name": "apatidar",
+    "version": "1.0.0",
+    "bin": {
+        "apatidar": "index.js"
+    },
+    "description": "Just to test first npm cli",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ashokpatidar/ashok.git"
+    },
+    "keywords": [
+        "nodecli"
+    ],
+    "author": "apatidar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ashokpatidar/ashok/issues"
+    },
+    "homepage": "https://github.com/ashokpatidar/ashok#readme",
+    "dependencies": {
+        "clear-any-console": "^1.16.2",
+        "emoji-log": "^1.0.2"
+    }
 }
